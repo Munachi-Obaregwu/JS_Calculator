@@ -1,0 +1,51 @@
+<!-- This project started Sunday, November 12th 2023 and was completed on Monday, December 11th 2023, including school days and other delays -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_styles.css">
+    <title>JavaScript Calulator</title>
+</head>
+<body>
+    <header>
+        <h1>This calculator runs with <span class="js">JS</span></h1>
+        <p>Click the help button below, for any help you may need</p>
+    </header>
+    <main>
+        <div class="box">
+            <input type="text" class="numbers" id="firstNumber" placeholder="1st no.">
+            <input type="text" class="numbers" id="secondNumber" placeholder="2nd no.">
+            <!-- <input type="text" class="ans_area" id="typingArea" placeholder="Your answer"> -->
+            <p id="answer"></p>
+        </div>
+        <br>
+        <br>
+        <div class="row1">
+            <button class="buttons" onclick="divide(), empty()">/</button>
+            <button class="buttons" onclick="multiply(), empty()">x</button>
+            <br>
+        </div>
+        <div class="row2">
+            <button class="buttons" onclick="subtract(), empty()">-</button>
+            <button class="buttons" onclick="add(), empty()">+</button>
+            <br>
+        </div>
+        <div class="row3">
+            <button class="buttons" onclick="help()">Help</button>
+            <div id="helpList">
+                <p id="helpList1"></p>
+                <p id="helpList2"></p>
+                <p id="helpList3"></p>
+                <p id="helpList4"></p>
+                <p id="helpList5"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>&copy; Munachi Obaregwu</h3>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

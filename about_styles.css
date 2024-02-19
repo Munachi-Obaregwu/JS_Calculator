@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    height: 10vh;
+    margin: 0;
+    padding: 0.5rem;
+    background: darkblue;
+    color: rgb(150, 150, 255);
+    text-align: center;
+    font-family: "Roboto";
+}
+
+footer {
+    height: 10vh;
+    margin: 0;
+    padding: 1rem;
+    background: darkblue;
+    color: rgb(150, 150, 255);
+    text-align: center;
+    font-family: "Roboto";
+}
+
+main {
+    height: 70vh;
+    margin: 0;
+    padding-bottom: 1rem;
+    font-family: "Roboto";
+    background-color: rgb(150, 150, 255);
+    text-align: center;
+}
+
+img {
+    width: 35rem;
+    height: 23rem;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    padding: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.left > p {
+    font-size: 1.3rem;
+}
+
+.right {
+    width: 50%;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.button {
+    height: 3rem;
+    width: 12rem;
+    background-color: rgb(82, 82, 200);
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+}
